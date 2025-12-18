@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class rotate : MonoBehaviour
@@ -11,6 +12,6 @@ public class rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Console.WriteLine("rotate");
     }
 }
