@@ -13,5 +13,6 @@ public class rotate : MonoBehaviour
     void Update()
     {
         Console.WriteLine("rotate");
+        transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
     }
 }
